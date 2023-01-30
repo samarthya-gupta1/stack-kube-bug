@@ -16,6 +16,6 @@
       }
     },
     "componentVersions": {
-     "KUBERNETES": ""
+     "KUBERNETES": "1.11"
     }
    }
