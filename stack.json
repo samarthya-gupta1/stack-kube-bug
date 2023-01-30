@@ -1,21 +1,30 @@
 {
-    "$schema": "https://docs.facets.cloud/schemas/stack.schema",
-    "composition": {
-     "plugins": []
+ "$schema": "https://docs.facets.cloud/schemas/stack.schema",
+ "composition": {
+  "plugins": [
+    ]
+ },
+ "stackVariables": {
+
+ },
+ "clusterVariablesMeta": {
+  "MY_VAR": {
+      "value": "dummy"
     },
-    "stackVariables": {
-   
-    },
-    "clusterVariablesMeta": {
-       "MY_VAR": {
-         "value": "dummy"
-       },
-       "MY_SECRET": {
-         "secret" : "true",
-         "value": "dummy"
-      }
-    },
-    "componentVersions": {
-     "KUBERNETES": "1.11"
-    }
+    "MY_SECRET": {
+      "secret" : "true",
+      "value": "dummy"
+   },
+      "DUMMY_SECRET": {
+      "secret" : "true",
+      "value": "test-dummy"
+   },
+   "TEST_SECRET": {
+      "secret" : "true",
+      "value": "test-dummy-secret"
    }
+ },
+ "componentVersions": {
+  "KUBERNETES": "1.21"
+ }
+}
