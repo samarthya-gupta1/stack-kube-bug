@@ -14,5 +14,8 @@
          "secret" : "true",
          "value": "dummy"
       }
+    },
+    "componentVersions": {
+     "KUBERNETES": ""
     }
    }
