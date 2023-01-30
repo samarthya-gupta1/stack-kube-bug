@@ -25,6 +25,6 @@
    }
  },
  "componentVersions": {
-  "KUBERNETES": ""
+  "KUBERNETES": "1.19"
  }
 }
